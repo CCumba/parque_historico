@@ -26,6 +26,19 @@ La actividad seleccionada es la visita al Parque Histórico de Guayaquil, refiri
 
 ### Comparación de plantillas HTML5 UP
 
+| Característica | TXT | Future Imperfect | Spectral |
+|---|---|---|---|
+| **Estructura** | Es de una sola página con una parte de bienvenida y después bloques de contenido con foto grande, título y texto. También trae versiones con barra lateral por si se necesita | Está armada como un blog, con una lista de publicaciones, foto del autor y fecha en cada una | Es de una sola página, con secciones grandes de texto e imagen y al final una parte de tarjetas pequeñas |
+| **Navegación** | Menú arriba con un desplegable, y enlaces a las otras páginas de ejemplo (sidebar izquierda, derecha, sin sidebar) | Menú arriba con buscador y botón de menú aparte, además de botones para pasar de página entre publicaciones | Menú que se abre como un panel desde un botón, todo dentro de la misma página |
+| **Diseño** | Sencillo, pensado para mostrar textos más largos con buenas fotos | Se ve como una revista o blog, con autor, fecha y categorías en cada publicación | Moderno pero con bloques más genéricos, usa íconos y tarjetas |
+| **Adaptabilidad** | Se ve bien en celular y tablet | También es responsive, pero al tener sidebar se ve más cargado en pantallas chicas | Pensada para celular desde el inicio, por el menú tipo panel |
+| **Facilidad de personalización** | Media, hay que ajustar algunas cosas de "post" que trae por defecto | Más complicada, porque toda la plantilla depende de autor, fecha y comentarios, que no necesitamos | Fácil, pero las secciones son más simples y genéricas |
+
+Plantillas:
+TXT: https://html5up.net/txt
+Future Imperfect: https://html5up.net/future-imperfect
+Spectral: https://html5up.net/spectral
+
 ### Plantilla seleccionada
 
 ## Autores
