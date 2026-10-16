@@ -34,14 +34,15 @@ La actividad seleccionada es la visita al Parque Histórico de Guayaquil, refiri
 | **Adaptabilidad** | Se ve bien en celular y tablet | También es responsive, pero al tener sidebar se ve más cargado en pantallas chicas | Pensada para celular desde el inicio, por el menú tipo panel |
 | **Facilidad de personalización** | Media, hay que ajustar algunas cosas de "post" que trae por defecto | Más complicada, porque toda la plantilla depende de autor, fecha y comentarios, que no necesitamos | Fácil, pero las secciones son más simples y genéricas |
 
-Plantillas:
-TXT: https://html5up.net/txt
-Future Imperfect: https://html5up.net/future-imperfect
-Spectral: https://html5up.net/spectral
-
 ### Plantilla seleccionada
 
 Elegimos la plantilla TXT porque consideramos que es la mejor opción para presentar toda la información que tenemos sobre el Parque Histórico.Aunque otras opciones, como Future Imperfect, funcionan bien para formatos como una revista o un blog, y Spectral destaca por su estilo visual moderno y atractivo, la plantilla que seleccionamos se adapta mejor a la idea de tener una página donde el texto y las imágenes se muestra de manera natural. Nos permite organizar las secciones del proyecto de forma cómoda, con un menú fácil de usar y una vista clara que no resulta pesada en ningún dispositivo.
+
+## Bibliografía
+
+- HTML5 UP. (s.f.). *TXT*. https://html5up.net/txt
+- HTML5 UP. (s.f.). *Future Imperfect*. https://html5up.net/future-imperfect
+- HTML5 UP. (s.f.). *Spectral*. https://html5up.net/spectral
 
 ## Autores
 - Matías Peralta
