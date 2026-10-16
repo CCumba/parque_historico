@@ -41,6 +41,8 @@ Spectral: https://html5up.net/spectral
 
 ### Plantilla seleccionada
 
+Elegimos la plantilla TXT porque consideramos que es la mejor opción para presentar toda la información que tenemos sobre el Parque Histórico.Aunque otras opciones, como Future Imperfect, funcionan bien para formatos como una revista o un blog, y Spectral destaca por su estilo visual moderno y atractivo, la plantilla que seleccionamos se adapta mejor a la idea de tener una página donde el texto y las imágenes se muestra de manera natural. Nos permite organizar las secciones del proyecto de forma cómoda, con un menú fácil de usar y una vista clara que no resulta pesada en ningún dispositivo.
+
 ## Autores
 - Matías Peralta
 - Carla Cumba
