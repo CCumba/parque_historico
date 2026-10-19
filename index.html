@@ -41,6 +41,7 @@
 						</li>
 						<li><a href="#metodologia">Metodología</a></li>
 						<li><a href="#resultados">Resultados</a></li>
+						<li><a href="#formulario">Danos tu opinión</a></li>
 						<li><a href="#conclusiones">Conclusiones</a></li>
 						<li><a href="#galeria">Galería</a></li>
 						<li><a href="#creditos">Créditos</a></li>
@@ -243,6 +244,78 @@
 											</div>
 										</div>
 									</div>
+								</section>
+							</div>
+
+							<!-- Formulario de opinión -->
+							<div class="col-12">
+								<section class="box page-content" id="formulario">
+									<h2 class="major"><span>Danos tu opinión</span></h2>
+									<p>
+										Si ya visitaste el Parque Histórico, cuéntanos tu experiencia. Tus respuestas son anónimas y
+										nos ayudan a complementar las entrevistas realizadas para este proyecto.
+									</p>
+									<form class="formulario-opinion" action="#" method="get">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-medium">
+												<label for="nombre">Nombre o seudónimo (opcional)</label>
+												<input type="text" id="nombre" name="nombre" placeholder="Ej. Visitante anónimo" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<label for="correo">Correo electrónico (opcional)</label>
+												<input type="email" id="correo" name="correo" placeholder="nombre@correo.com" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<label for="tipo-visitante">¿Cómo visitaste el parque? *</label>
+												<select id="tipo-visitante" name="tipo-visitante" required>
+													<option value="" selected disabled>Selecciona una opción</option>
+													<option value="familia">En familia</option>
+													<option value="estudiante">Como estudiante</option>
+													<option value="turista-nacional">Turista nacional</option>
+													<option value="turista-extranjero">Turista extranjero</option>
+													<option value="personal">Personal o guía del parque</option>
+													<option value="otro">Otro</option>
+												</select>
+											</div>
+											<div class="col-6 col-12-medium">
+												<label for="frecuencia">¿Con qué frecuencia visitas el parque? *</label>
+												<select id="frecuencia" name="frecuencia" required>
+													<option value="" selected disabled>Selecciona una opción</option>
+													<option value="primera-vez">Es mi primera vez</option>
+													<option value="ocasional">Ocasionalmente</option>
+													<option value="mensual">Mensualmente</option>
+													<option value="semanal">Semanalmente</option>
+												</select>
+											</div>
+											<div class="col-12">
+												<fieldset>
+													<legend>¿Cómo calificarías tu experiencia? *</legend>
+													<div class="calificacion">
+														<label><input type="radio" name="calificacion" value="muy-buena" required /> Muy buena</label>
+														<label><input type="radio" name="calificacion" value="buena" /> Buena</label>
+														<label><input type="radio" name="calificacion" value="regular" /> Regular</label>
+														<label><input type="radio" name="calificacion" value="mala" /> Mala</label>
+													</div>
+												</fieldset>
+											</div>
+											<div class="col-12">
+												<label for="comentario">¿Qué fue lo que más disfrutaste de tu visita? *</label>
+												<textarea id="comentario" name="comentario" rows="4" maxlength="400" required placeholder="Cuéntanos tu experiencia en el parque..."></textarea>
+											</div>
+											<div class="col-12">
+												<label class="casilla">
+													<input type="checkbox" name="consentimiento" required />
+													Autorizo el uso anónimo de este comentario con fines académicos del Proyecto 02.
+												</label>
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Enviar opinión" class="button" /></li>
+													<li><input type="reset" value="Borrar" class="button alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
 								</section>
 							</div>
 
