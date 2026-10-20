@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,700;1,400&display=swap");
 
 /*
 	TXT by HTML5 UP
@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f2f5f3;
+		background: #f6f1e7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,18 +98,18 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Source Sans 3', Arial, sans-serif;
 		font-weight: 400;
-		color: #6b7770;
+		color: #44504a;
 		font-size: 13pt;
 		line-height: 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6b7770;
+		color: #44504a;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
@@ -125,7 +125,7 @@ input, select, textarea {
 
 		h2.major {
 			position: relative;
-			border-top: solid 5px #e7eae8;
+			border-top: solid 5px #e6dcc8;
 			font-size: 1.65em;
 			text-align: center;
 			margin: 0 0 3em 0;
@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #006376;
+		color: #1f5f4a;
 		text-decoration: underline;
 	}
 
@@ -155,7 +155,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 700;
-		color: #6b7770;
+		color: #44504a;
 	}
 
 	i, em {
@@ -180,12 +180,12 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 2px #E7EAE8;
+		border-top: solid 2px #e6dcc8;
 		margin: 0 0 3em 0;
 	}
 
 	blockquote {
-		border-left: solid 5px #E7EAE8;
+		border-left: solid 5px #e6dcc8;
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
@@ -206,10 +206,10 @@ input, select, textarea {
 
 	header > p {
 		display: block;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #c1cac5;
+		color: #cfc3a8;
 	}
 
 /* Container */
@@ -1788,11 +1788,11 @@ input, select, textarea {
 	.button {
 		-webkit-appearance: none;
 		display: inline-block;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #b1ddab;
+		background: #b4572b;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1814,7 +1814,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #c1edbb;
+			background: #c4673a;
 		}
 
 		input[type="button"]:active,
@@ -1822,7 +1822,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #a1cd9b;
+			background: #8f4322;
 		}
 
 		input[type="button"].alt,
@@ -1830,7 +1830,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #c1cac5;
+			background: #cfc3a8;
 		}
 
 			input[type="button"].alt:hover,
@@ -1838,7 +1838,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #ccd5d0;
+				background: #d9ceb4;
 			}
 
 			input[type="button"].alt:active,
@@ -1846,7 +1846,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #b1bab5;
+				background: #bfb396;
 			}
 
 		input[type="button"].large,
@@ -1885,7 +1885,7 @@ input, select, textarea {
 	}
 
 		ul.divided > li {
-			border-top: solid 2px #e7eae8;
+			border-top: solid 2px #e6dcc8;
 			padding-top: 2.35em;
 			margin-top: 2.35em;
 			padding-left: 0;
@@ -1947,12 +1947,12 @@ input, select, textarea {
 				height: 48px;
 				border-radius: 6px;
 				outline: 0;
-				background: #c1cac5;
+				background: #cfc3a8;
 				text-align: center;
 			}
 
 				ul.contact li a:before {
-					color: #f2f5f3;
+					color: #f6f1e7;
 					font-size: 32px;
 					line-height: 48px;
 				}
@@ -2022,7 +2022,7 @@ input, select, textarea {
 					transition: background-color .2s ease-in-out;
 					display: block;
 					text-align: center;
-					background: #c1cac5;
+					background: #cfc3a8;
 					border-radius: 100%;
 					width: 2.25em;
 					height: 2.25em;
@@ -2036,7 +2036,7 @@ input, select, textarea {
 			}
 
 				ul.special li:hover a:before {
-					background: #b9d2ce;
+					background: #d9c9a5;
 				}
 
 /* Meta */
@@ -2078,7 +2078,7 @@ input, select, textarea {
 	}
 
 		ul.menu li {
-			border-left: solid 1px #E7EAE8;
+			border-left: solid 1px #e6dcc8;
 			display: inline-block;
 			padding: 0 0 0 0.75em;
 			margin: 0 0 0 0.75em;
@@ -2095,10 +2095,10 @@ input, select, textarea {
 	form label {
 		display: block;
 		margin: 0 0 1em 0;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6b7770;
+		color: #44504a;
 	}
 
 	form input[type="text"],
@@ -2110,7 +2110,7 @@ input, select, textarea {
 		display: block;
 		width: 100%;
 		border-radius: 8px;
-		border: solid 2px #E7EAE8;
+		border: solid 2px #e6dcc8;
 	}
 
 		form input[type="text"]:focus,
@@ -2118,7 +2118,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #a1cd9b;
+			border-color: #8f4322;
 		}
 
 	form input[type="text"],
@@ -2165,7 +2165,7 @@ input, select, textarea {
 		}
 
 			table.default tr {
-				border-top: solid 2px #E7EAE8;
+				border-top: solid 2px #e6dcc8;
 			}
 
 				table.default tr:first-child {
@@ -2180,14 +2180,14 @@ input, select, textarea {
 				text-align: left;
 				padding: 0.5em 1em 0.5em 1em;
 				margin: 0 0 1em 0;
-				font-family: 'Open Sans Condensed', sans-serif;
+				font-family: 'Lora', Georgia, serif;
 				font-weight: 700;
 				text-transform: uppercase;
-				color: #6b7770;
+				color: #44504a;
 			}
 
 			table.default thead {
-				background: #E7EAE8;
+				background: #e6dcc8;
 				color: #fff;
 			}
 
@@ -2305,7 +2305,7 @@ input, select, textarea {
 	#header {
 		text-align: center;
 		font-size: 2em;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		padding: 2em 0;
@@ -2316,7 +2316,7 @@ input, select, textarea {
 		#header .logo {
 			position: relative;
 			text-align: center;
-			border-top: solid 5px #e7eae8;
+			border-top: solid 5px #e6dcc8;
 			top: 0.65em;
 		}
 
@@ -2334,7 +2334,7 @@ input, select, textarea {
 
 			#header .logo p {
 				display: inline;
-				color: #C1CAC5;
+				color: #cfc3a8;
 			}
 
 /* Nav */
@@ -2354,7 +2354,7 @@ input, select, textarea {
 		height: 3.25em;
 		line-height: 3.25em;
 		text-align: center;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		cursor: default;
@@ -2389,7 +2389,7 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				text-decoration: none;
-				color: #6b7770;
+				color: #44504a;
 				top: -6px;
 				padding: 6px 1.5em 0.25em 1.5em;
 				border-bottom-left-radius: 6px;
@@ -2402,28 +2402,28 @@ input, select, textarea {
 			}
 
 			#nav li:hover a, #nav li:hover span {
-				background: #C1CAC5;
+				background: #cfc3a8;
 				color: #fff;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #C1CAC5;
+				background: #cfc3a8;
 				color: #fff;
 			}
 
 			#nav li.current a {
-				background: #b1ddab;
+				background: #b4572b;
 				color: #fff;
 			}
 
 	.dropotron {
 		list-style: none;
-		background: #6B7770;
+		background: #1f3d33;
 		color: #fff;
 		border-radius: 6px;
 		line-height: 2.75em;
 		text-align: center;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Lora', Georgia, serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		padding: 1em 0;
@@ -2446,12 +2446,12 @@ input, select, textarea {
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
-				background: #7B8780;
+				background: #2c5546;
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
 				color: #fff;
-				background: #7B8780;
+				background: #2c5546;
 			}
 
 			.dropotron li:first-child {
@@ -2469,7 +2469,7 @@ input, select, textarea {
 				left: 50%;
 				margin-left: -1em;
 				top: -0.65em;
-				border-bottom: solid 1em #6B7770;
+				border-bottom: solid 1em #44504a;
 				border-left: solid 1em transparent;
 				border-right: solid 1em transparent;
 			}
@@ -2478,7 +2478,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.svg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -2506,7 +2506,7 @@ input, select, textarea {
 
 			#banner .content p {
 				display: block;
-				font-family: 'Open Sans Condensed', sans-serif;
+				font-family: 'Lora', Georgia, serif;
 				font-weight: 700;
 				text-transform: uppercase;
 				color: #575d59;
@@ -2540,8 +2540,8 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
+		border-top: solid 5px #b4572b;
+  		border-bottom: solid 5px #cfc3a8;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 6em 0 6em 0;
@@ -2574,17 +2574,17 @@ input, select, textarea {
 		}
 
 			#footer h2.major span {
-				background: #f2f5f3;
+				background: #f6f1e7;
 			}
 
 /* Copyright */
 
 	#copyright {
 		display: inline-block;
-		background: #e7eae8;
+		background: #e6dcc8;
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
-		color: #8b9790;
+		color: #6b6552;
 		margin: 4em 0 0 0;
 	}
 
@@ -2597,7 +2597,7 @@ input, select, textarea {
 		}
 
 			#copyright .menu li {
-				border-color: #C1CAC5;
+				border-color: #cfc3a8;
 				border-width: 2px;
 				line-height: 1em;
 			}
@@ -2690,11 +2690,7 @@ input, select, textarea {
 
 /* Medium */
 
-	#navPanel, #titleBar {
-		display: none;
-	}
-
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 99999px) {
 
 		/* Basic */
 
@@ -2735,7 +2731,7 @@ input, select, textarea {
 		/* Sidebar */
 
 			.sidebar {
-				border-top: solid 2px #e7eae8;
+				border-top: solid 2px #e6dcc8;
 				padding-top: 50px;
 			}
 
@@ -2784,7 +2780,7 @@ input, select, textarea {
 				#titleBar .title {
 					display: block;
 					position: relative;
-					font-family: 'Open Sans Condensed', sans-serif;
+					font-family: 'Lora', Georgia, serif;
 					font-weight: 700;
 					text-transform: uppercase;
 					font-size: 1.25em;
@@ -2823,7 +2819,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #b4572b;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2834,7 +2830,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: #8f4322;
 					}
 
 			#navPanel {
@@ -2858,14 +2854,14 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background-color: #353c37;
+				background-color: #1a2f27;
 				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% 100%;
-				font-family: 'Open Sans Condensed', sans-serif;
+				font-family: 'Lora', Georgia, serif;
 				font-weight: 700;
 				text-transform: uppercase;
 				font-size: 1.25em;
@@ -3072,7 +3068,7 @@ input, select, textarea {
 		/* Sidebar */
 
 			.sidebar {
-				border-top: solid 2px #e7eae8;
+				border-top: solid 2px #e6dcc8;
 				padding-top: 50px;
 				margin-top: 30px;
 			}
