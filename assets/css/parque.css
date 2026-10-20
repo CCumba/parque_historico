@@ -1,0 +1,281 @@
+/*
+	Estilos personalizados para el Parque Histórico de Guayaquil.
+*/
+
+body {
+	background-color: #f5f1e8;
+	color: #4a4a40;
+}
+
+/* Colores principales del sitio */
+#header .logo h1 a {
+	color: #1f5f4a;
+}
+
+#header .logo p {
+	color: #6b6552;
+	font-style: italic;
+}
+
+#nav li.current a {
+	color: #b4572b;
+}
+
+#nav li a:hover {
+	color: #b4572b;
+}
+
+#nav li:hover a, #nav li:hover span,
+#nav li.active a, #nav li.active span {
+	background: #1f5f4a;
+	color: #fff;
+}
+
+#banner {
+	background-color: #1f3d33;
+}
+
+#banner .content h2 {
+	text-transform: none;
+}
+
+#banner .content p {
+	color: #fff;
+}
+
+#banner .content .button {
+	color: #fff;
+	border-color: #fff;
+}
+
+#banner .content .button:hover {
+	color: #fff;
+	background: #b4572b !important;
+	border-color: #b4572b;
+}
+
+h2, h3 {
+	color: #1f5f4a;
+}
+
+a {
+	color: #1f5f4a;
+}
+
+a:hover {
+	color: #b4572b;
+}
+
+.box {
+	margin-bottom: 1.5em;
+	padding: 1.5em;
+}
+
+ul.special li a:before {
+	background: #1f5f4a;
+}
+
+ul.special li:hover a:before {
+	background: #b4572b;
+}
+
+ul.contact li a:before {
+	color: #f5f1e8;
+}
+
+ul.contact li a {
+	background: #1f5f4a;
+}
+
+ul.contact li:hover a {
+	background-color: #b4572b;
+}
+
+/* Lista de pasos de la metodología */
+.lista-pasos {
+	list-style: none;
+	padding-left: 0;
+}
+
+.lista-pasos li {
+	margin-bottom: 0.75em;
+	padding-left: 1em;
+	border-left: 3px solid #b4572b;
+}
+
+/* Resultados pendientes de completar */
+.pendiente {
+	color: #b4572b;
+	font-style: italic;
+}
+
+.pendiente-caja {
+	border: 1px dashed #b4572b;
+	padding: 1em;
+	color: #6b6552;
+}
+
+/* Fila de pregunta cerrada + su resultado */
+.resultados {
+	list-style: none;
+	padding-left: 0;
+}
+
+.resultados li {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+	padding: 0.6em 0;
+	border-bottom: 1px solid #e6dcc8;
+}
+
+/* Textos cortos de la barra lateral */
+.resumen {
+	margin: 0.4em 0 0 0;
+}
+
+/* Testimonios */
+.testimonio {
+	font-style: italic;
+	border-left: 3px solid #1f5f4a;
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+.galeria-ancha {
+	margin: 0;
+}
+
+.galeria-ancha figcaption {
+	margin-top: 0.6em;
+	font-size: 0.9em;
+	color: #6b6552;
+}
+
+a:focus-visible, .button:focus-visible {
+	outline: 3px solid #b4572b;
+	outline-offset: 2px;
+}
+
+/* Mapa de ubicación (sección "Dónde queda") */
+.mapa-wrapper {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.mapa-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* Formulario */
+.formulario-opinion label {
+	font-weight: 600;
+	color: #1f5f4a;
+}
+
+.formulario-opinion fieldset {
+	border: 1px solid #e6dcc8;
+	border-radius: 6px;
+	padding: 1em;
+}
+
+.formulario-opinion fieldset legend {
+	font-weight: 600;
+	color: #1f5f4a;
+	padding: 0 0.4em;
+}
+
+.formulario-opinion .calificacion {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em 1.5em;
+}
+
+.formulario-opinion .calificacion label,
+.formulario-opinion label.casilla {
+	font-weight: 400;
+	color: #4a4a40;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.formulario-opinion input[type="radio"],
+.formulario-opinion input[type="checkbox"] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 1.1em;
+	height: 1.1em;
+	min-width: 1.1em;
+	margin: 0;
+	border: 2px solid #1f5f4a;
+	background: #fff;
+	cursor: pointer;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.formulario-opinion input[type="radio"] {
+	border-radius: 50%;
+}
+
+.formulario-opinion input[type="radio"]:checked::after {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border-radius: 50%;
+	background: #1f5f4a;
+}
+
+.formulario-opinion input[type="checkbox"] {
+	border-radius: 4px;
+}
+
+.formulario-opinion input[type="checkbox"]:checked {
+	background: #1f5f4a;
+}
+
+.formulario-opinion input[type="checkbox"]:checked::after {
+	content: "";
+	position: absolute;
+	left: 0.28em;
+	top: 0.05em;
+	width: 0.3em;
+	height: 0.55em;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.formulario-opinion input[type="radio"]:focus-visible,
+.formulario-opinion input[type="checkbox"]:focus-visible {
+	outline: 3px solid #b4572b;
+	outline-offset: 2px;
+}
+
+input[type="reset"].button.alt,
+input[type="reset"].alt {
+	color: #4a4a40;
+}
+
+input[type="reset"].button.alt:hover,
+input[type="reset"].alt:hover {
+	color: #1a2f27;
+}
+
+/* Pie de página */
+#footer {
+	background-color: #f5f1e8;
+}
