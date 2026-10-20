@@ -35,9 +35,10 @@
 		});
 
 	// Scrolly
+	// Ahora la navegación es el menú hamburguesa
 		$('.scrolly').scrolly({
 			speed: 1000,
-			offset: function() { return $nav.height() - 5; }
+			offset: 44
 		});
 
 	// Nav.
