@@ -41,6 +41,22 @@
 			offset: 44
 		});
 
+	// Formulario de opinión.
+		$('.formulario-opinion').on('submit', function(e) {
+
+			e.preventDefault();
+
+			var	$form = $(this);
+
+			$form.find('.formulario-confirmacion').remove();
+
+			$('<p class="formulario-confirmacion" role="status">¡Gracias por tu opinión! Tu respuesta ha sido registrada.</p>')
+				.insertAfter($form);
+
+			this.reset();
+
+		});
+
 	// Nav.
 
 		// Title Bar.
