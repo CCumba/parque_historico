@@ -129,6 +129,56 @@ ul.contact li:hover a {
 	border-bottom: 1px solid #e6dcc8;
 }
 
+/* Barras de porcentaje en los resultados */
+.resultados .resultado-pregunta {
+	display: block;
+}
+
+.resultados .pregunta {
+	display: block;
+	font-weight: 600;
+	color: #1f5f4a;
+	margin-bottom: 0.4em;
+}
+
+.resultados .barras {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.resultados .barras li {
+	display: grid;
+	grid-template-columns: minmax(7em, 32%) 1fr 3.2em;
+	gap: 0.6em;
+	align-items: center;
+	padding: 0.25em 0;
+	border-bottom: 0;
+}
+
+.resultados .barras .valor {
+	text-align: right;
+	font-weight: 600;
+}
+
+.barra {
+	position: relative;
+	height: 1em;
+	background: #e6dcc8;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.barra::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: var(--valor, 0%);
+	background: #1f5f4a;
+}
+
 /* Textos cortos de la barra lateral */
 .resumen {
 	margin: 0.4em 0 0 0;
