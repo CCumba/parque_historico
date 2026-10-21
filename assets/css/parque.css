@@ -142,11 +142,20 @@ ul.contact li:hover a {
 	margin-bottom: 1em;
 }
 
-.galeria-ancha {
+/* Fotografías de la galería */
+.galeria-foto {
 	margin: 0;
 }
 
-.galeria-ancha figcaption {
+.galeria-foto img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.galeria-foto figcaption {
 	margin-top: 0.6em;
 	font-size: 0.9em;
 	color: #6b6552;
