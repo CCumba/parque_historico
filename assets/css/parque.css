@@ -103,18 +103,6 @@ ul.contact li:hover a {
 	border-left: 3px solid #b4572b;
 }
 
-/* Resultados pendientes de completar */
-.pendiente {
-	color: #b4572b;
-	font-style: italic;
-}
-
-.pendiente-caja {
-	border: 1px dashed #b4572b;
-	padding: 1em;
-	color: #6b6552;
-}
-
 /* Fila de pregunta cerrada + su resultado */
 .resultados {
 	list-style: none;
