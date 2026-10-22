@@ -179,6 +179,11 @@ ul.contact li:hover a {
 	background: #1f5f4a;
 }
 
+/* Subtítulos de las cajas ("Sobre la actividad" y "Dónde queda") con contraste suficiente */
+.box header > p {
+	color: #6b6552;
+}
+
 /* Textos cortos de la barra lateral */
 .resumen {
 	margin: 0.4em 0 0 0;
@@ -267,6 +272,18 @@ a:focus-visible, .button:focus-visible {
 	gap: 0.5em;
 }
 
+.formulario-opinion input[type="text"],
+.formulario-opinion input[type="email"],
+.formulario-opinion select,
+.formulario-opinion textarea {
+	font-size: 16px;
+}
+
+.formulario-opinion .calificacion label,
+.formulario-opinion label.casilla {
+	padding: 0.4em 0;
+}
+
 .formulario-opinion input[type="radio"],
 .formulario-opinion input[type="checkbox"] {
 	-moz-appearance: none;
@@ -324,11 +341,13 @@ a:focus-visible, .button:focus-visible {
 	outline-offset: 2px;
 }
 
+.button.alt,
 input[type="reset"].button.alt,
 input[type="reset"].alt {
 	color: #4a4a40;
 }
 
+.button.alt:hover,
 input[type="reset"].button.alt:hover,
 input[type="reset"].alt:hover {
 	color: #1a2f27;
@@ -337,4 +356,12 @@ input[type="reset"].alt:hover {
 /* Pie de página */
 #footer {
 	background-color: #f5f1e8;
+}
+
+#copyright {
+	color: #4a4a40;
+}
+
+#footer a:hover {
+	color: #9a4521;
 }
