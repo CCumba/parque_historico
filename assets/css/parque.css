@@ -372,3 +372,8 @@ input[type="reset"].alt:hover {
 	width: 100%;
 	border-radius: 8px;
 }
+
+/* La capa decorativa queda encima del video y bloquea los controles, arreglamos eso */
+.image:before {
+	pointer-events: none;
+}
