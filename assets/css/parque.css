@@ -353,3 +353,13 @@ input[type="reset"].alt:hover {
 #footer a:hover {
 	color: #9a4521;
 }
+
+/* Centrar verticalmente la lista "Quién lo visita / Qué se aprende / Para quién es"
+   respecto a la columna de la imagen */
+
+#ubicacion .sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
