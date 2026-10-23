@@ -38,6 +38,27 @@ La actividad seleccionada es la visita al Parque Histórico de Guayaquil, refiri
 
 Elegimos la plantilla TXT porque consideramos que es la mejor opción para presentar toda la información que tenemos sobre el Parque Histórico.Aunque otras opciones, como Future Imperfect, funcionan bien para formatos como una revista o un blog, y Spectral destaca por su estilo visual moderno y atractivo, la plantilla que seleccionamos se adapta mejor a la idea de tener una página donde el texto y las imágenes se muestra de manera natural. Nos permite organizar las secciones del proyecto de forma cómoda, con un menú fácil de usar y una vista clara que no resulta pesada en ningún dispositivo.
 
+## Implementación
+
+Se reemplazó por completo el contenido de demostración de la plantilla TXT por la información real de la actividad:
+
+- Personalización de `index.html` con las secciones Inicio, Sobre la actividad, Las tres zonas, Dónde queda (con mapa), Metodología, Resultados, Danos tu opinión, Conclusiones, Galería y Créditos.
+- Reemplazo de las ilustraciones genéricas por fotografías propias en la Galería y en la sección de Ubicación.
+- Implementación de un menú de navegación tipo hamburguesa, funcional en todos los tamaños de pantalla.
+- Visualización de las preguntas cerradas de la entrevista mediante barras de porcentaje, y de las preguntas abiertas mediante testimonios anonimizados.
+- Formulario de opinión ("Danos tu opinión") con validación HTML5 (campos requeridos, tipos de entrada, mensaje de confirmación al enviar).
+- Personalización del diseño CSS: paleta de colores propia, tipografías Lora y Source Sans 3 (Google Fonts), ajustes de contraste, espaciados y estilos responsivos, en un archivo `parque.css` separado de la plantilla base.
+- Eliminación de clases, estilos e imágenes sin uso que quedaban de la plantilla original.
+
+Todos los cambios se registraron mediante commits descriptivos en el repositorio.
+
+## Despliegue
+
+El sitio se publicó mediante GitHub Pages y se verificó que las imágenes, los enlaces de navegación, el mapa embebido y los estilos se muestran y funcionan correctamente en distintos tamaños de pantalla.
+
+- **URL del sitio publicado:** https://ccumba.github.io/parque_historico/
+- **URL del repositorio:** https://github.com/CCumba/parque_historico
+
 ## Bibliografía
 
 - HTML5 UP. (s.f.). *TXT*. https://html5up.net/txt
